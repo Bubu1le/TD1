@@ -189,3 +189,7 @@ void ppm_to_pgm(struct ppm *P3, struct pgm *P2) {
 		for(int j = 0; j < P3->height; j++)
 			P2->pixels[i][j] = 0.299 * P3->pixels[i][j].r + 0.587 * P3->pixels[i][j].g + 0.114 * P3->pixels[i][j].b;
 }
+
+int main() {
+		return 0;
+}
